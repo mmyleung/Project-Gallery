@@ -1,19 +1,61 @@
 console.log('javascript is working!');
-document.getElementById("button-1").addEventListener("click", function() {
-    console.log("button 1 targeted");
+
+const descriptionOne = (document.getElementById('description-1'));
+descriptionOne.style.display = 'none';
+document.getElementById('button-1').addEventListener('click', function() {
+   if (descriptionOne.style.display === 'none') {
+    descriptionOne.style.display = 'block'; 
+   } else {
+        descriptionOne.style.display = 'none' ;
+    }
 });
-document.getElementById("button-2").addEventListener("click", function() {
-    console.log("button 2 targeted");
+
+const descriptionTwo = (document.getElementById('description-2'))
+descriptionTwo.style.display = 'none';
+document.getElementById('button-2').addEventListener('click', function() {
+    if (descriptionTwo.style.display === 'none') {
+        descriptionTwo.style.display = 'block'; 
+       } else {
+            descriptionTwo.style.display = 'none' ;
+        }
 });
-document.getElementById("button-3").addEventListener("click", function() {
-    console.log("button 3 targeted");
+
+const descriptionThree = (document.getElementById('description-3'))
+descriptionThree.style.display = 'none';
+document.getElementById('button-3').addEventListener('click', function() {
+    if (descriptionThree.style.display === 'none') {
+        descriptionThree.style.display = 'block'; 
+       } else {
+            descriptionThree.style.display = 'none' ;
+        }
 });
-document.getElementById("button-4").addEventListener("click", function() {
-    console.log("button 4 targeted");
+
+const descriptionFour = (document.getElementById('description-4'))
+descriptionFour.style.display = 'none';
+document.getElementById('button-4').addEventListener('click', function() {
+    if (descriptionFour.style.display === 'none') {
+        descriptionFour.style.display = 'block'; 
+       } else {
+            descriptionFour.style.display = 'none' ;
+        }
 });
-document.getElementById("button-5").addEventListener("click", function() {
-    console.log("button 5 targeted");
+
+const descriptionFive = (document.getElementById('description-5'))
+descriptionFive.style.display = 'none';
+document.getElementById('button-5').addEventListener('click', function() {
+    if (descriptionFive.style.display === 'none') {
+        descriptionFive.style.display = 'block'; 
+       } else {
+            descriptionFive.style.display = 'none' ;
+        }
 });
-document.getElementById("button-6").addEventListener("click", function() {
-    console.log("button 6 targeted");
+
+const descriptionSix = (document.getElementById('description-6'))
+descriptionSix.style.display = 'none';
+document.getElementById('button-6').addEventListener('click', function() {
+    if (descriptionSix.style.display === 'none') {
+        descriptionSix.style.display = 'block'; 
+       } else {
+            descriptionSix.style.display = 'none' ;
+        }
 });
