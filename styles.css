@@ -43,3 +43,9 @@ font-size: medium;
     width:100%;
 text-align: center;
 }
+
+@media (max-width: 767px) {
+    .projects{
+        min-width: 90%;;
+    }
+}
