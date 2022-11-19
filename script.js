@@ -59,3 +59,23 @@ document.getElementById('button-6').addEventListener('click', function() {
             descriptionSix.style.display = 'none' ;
         }
 });
+
+const descriptionSeven = (document.getElementById('description-7'))
+descriptionSeven.style.display = 'none';
+document.getElementById('button-7').addEventListener('click', function() {
+    if (descriptionSeven.style.display === 'none') {
+        descriptionSeven.style.display = 'block'; 
+       } else {
+            descriptionSeven.style.display = 'none' ;
+        }
+});
+
+const descriptionEight = (document.getElementById('description-8'))
+descriptionEight.style.display = 'none';
+document.getElementById('button-8').addEventListener('click', function() {
+    if (descriptionEight.style.display === 'none') {
+        descriptionEight.style.display = 'block'; 
+       } else {
+            descriptionEight.style.display = 'none' ;
+        }
+});
