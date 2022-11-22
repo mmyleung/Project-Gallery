@@ -1,6 +1,6 @@
 console.log('javascript is working!');
 
-const descriptionOne = (document.getElementById('description-1'));
+const descriptionOne = document.getElementById('description-1');
 descriptionOne.style.display = 'none';
 const btn1 = document.getElementById('button-1');
 btn1.addEventListener('click', function() {
@@ -14,7 +14,7 @@ btn1.addEventListener('click', function() {
     }
 });
 
-const descriptionTwo = (document.getElementById('description-2'))
+const descriptionTwo = document.getElementById('description-2');
 descriptionTwo.style.display = 'none';
 const btn2 = document.getElementById('button-2');
 btn2.addEventListener('click', function() {
@@ -27,7 +27,7 @@ btn2.addEventListener('click', function() {
         }
 });
 
-const descriptionThree = (document.getElementById('description-3'))
+const descriptionThree = document.getElementById('description-3');
 descriptionThree.style.display = 'none';
 const btn3 = document.getElementById('button-3');
 btn3.addEventListener('click', function() {
@@ -40,7 +40,7 @@ btn3.addEventListener('click', function() {
         }
 });
 
-const descriptionFour = (document.getElementById('description-4'))
+const descriptionFour = document.getElementById('description-4');
 descriptionFour.style.display = 'none';
 const btn4 = document.getElementById('button-4');
 btn4.addEventListener('click', function() {
@@ -53,7 +53,7 @@ btn4.addEventListener('click', function() {
         }
 });
 
-const descriptionFive = (document.getElementById('description-5'))
+const descriptionFive = document.getElementById('description-5');
 descriptionFive.style.display = 'none';
 const btn5 = document.getElementById('button-5');
 btn5.addEventListener('click', function() {
@@ -66,7 +66,7 @@ btn5.addEventListener('click', function() {
         }
 });
 
-const descriptionSix = (document.getElementById('description-6'))
+const descriptionSix = document.getElementById('description-6');
 descriptionSix.style.display = 'none';
 const btn6 = document.getElementById('button-6');
 btn6.addEventListener('click', function() {
@@ -79,7 +79,7 @@ btn6.addEventListener('click', function() {
         }
 });
 
-const descriptionSeven = (document.getElementById('description-7'))
+const descriptionSeven = document.getElementById('description-7');
 descriptionSeven.style.display = 'none';
 const btn7 = document.getElementById('button-7');
 btn7.addEventListener('click', function() {
@@ -92,7 +92,7 @@ btn7.addEventListener('click', function() {
         }
 });
 
-const descriptionEight = (document.getElementById('description-8'))
+const descriptionEight = document.getElementById('description-8');
 descriptionEight.style.display = 'none';
 const btn8 = document.getElementById('button-8');
 btn8.addEventListener('click', function() {
